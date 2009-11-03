@@ -1,0 +1,621 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta http-equiv="Content-Language" content="en-au">
+<meta name="viewport" content="width=device-width, height=device-height">
+
+<script type="text/javascript" src="includes/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="includes/tl.min.js"></script>
+
+<!-- Mobile device detections by Bushido Designs: BushidoDesigns.net -->
+<link rel="stylesheet" type="text/css" href="styles/handheld.css">
+<style type="text/css" media="screen and (min-width: 481px)">
+
+<!--
+@import url("styles/reset-min.css");
+@import url("styles/style.css");
+-->
+</style>
+<style type="text/css" media="print and (min-width: 481px)">
+
+<!--
+@import url("styles/print.css");
+-->
+</style>
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="styles/reset-min.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/print.css" media="print">
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="styles/style-ie7.css" media="screen">
+<![endif]-->
+<link href="styles/handheld.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+<link href="styles/small.css" rel="alternate stylesheet" type="text/css" title="Mobile device">
+
+<title>TransLink | Journey Planner</title>
+
+<meta name="description" content="Welcome to the new TransLink Transit Authority website. We are your one stop shop for all things public transport in South East Queensland. Our goal is answer any question you have about TransLink bus, train and ferry services.">
+<meta name="keywords" content="TransLink, TransInfo, public transport">
+<meta name="description" content="TransLink is your one stop for public transport information in South East Queensland, and coordinates and integrates public transport services.">
+<meta name="DC.Description" content="TransLink is your one stop for public transport information in South East Queensland, and coordinates and integrates public transport services.">
+<meta name="keywords" content="TransLink,public,transport,information,queensland,bus,train,ferry,timetables,transinfo,transit,authority">
+<meta name="DC.Subject" content="TransLink,public,transport,information,queensland,bus,train,ferry,timetables,transinfo,transit,authority">
+<meta name="DC.Creator" content="TransLink Transit Authority Online Communications Team">
+<meta name="DC.Date.Created" scheme="ISO8601" content="2008-07-01">
+<meta name="DC.Date.Modified" scheme="ISO8601" content="2009-07-10">
+<meta name="DC.Date.ValidTo" scheme="ISO8601" content="2010-01-10">
+
+<meta name="DC.Coverage.Spatial" content="Brisbane, Gold Coast, Sunshine Coast, Logan, Ipswich, Redcliffe, South East Queensland">
+<meta name="DC.Identifier" scheme="URI" content="http://www.translink.com.au">
+<meta name="DC.Language" scheme="RFC1766" content="en">
+<meta name="DC.Format" scheme="IMT" content="text/html">
+<meta name="DC.Publisher" scheme="AGLSAgent" content="corporateName=TransLink Transit Authority;jurisdiction=Queensland">
+<meta name="copyright" content="Copyright TransLink Transit Authority 2009">
+<meta name="DC.Rights" content="Copyright TransLink Transit Authority 2009">
+
+<!-- #BeginEditable "Javascript" -->
+
+<script type="text/javascript">
+</script>
+
+<!-- #EndEditable -->
+</head>
+<body>
+        <div id="access">
+        	<span class="title">Navigation</span>
+            <ul>
+                <li><a href="#content" title="Skip to content">Skip to content</a></li>
+                <li class="jpmobile"><a href="http://jp.translink.com.au/mobile/" title="Mobile Journey Planner">Mobile 
+
+journey planner</a></li>
+                <li class="jpadvanced"><a href="http://jp.translink.com.au/" title="Journey planner">Advanced journey 
+
+planner</a></li>
+                <li class="jp"><a href="#journeyplanner" title="Skip to journey planner">Skip to journey planner</a></li>
+            </ul>
+        </div>
+
+        <div id="page-wrap">
+            <div id="header">
+                <a title="TransLink" href="http://www.translink.com.au/" class="logo"><img alt="TransLink Transit Authority 
+
+logo" src="images/header/logo.gif"></a>
+                <div id="tools">
+                    <a title="Home" href="http://www.translink.com.au/">Home</a> |
+                    <a title="go card login" href="http://www.translink.com.au/go_my.php"><em>go</em> card login</a> |
+					<a title="Employment" href="http://www.translink.com.au/employment.php">Employment</a> 
+
+|
+                    <a title="Site map" href="http://www.translink.com.au/sitemap.php">Site map</a> |
+                    <a title="Contact us" href="http://www.translink.com.au/contactus.php">Contact us</a> |
+                    <a title="Help" href="http://www.translink.com.au/help.php">Help</a>
+                </div>
+                <img src="images/header/blob.jpg" alt="">
+                <div id="mainnav"><a name="nav"></a>
+                    <span class="title">Main navigation</span>
+                    <ul class="mainnav">
+                        <li><a href="http://www.translink.com.au/buses.php">Buses</a></li>
+                        <li><a href="http://www.translink.com.au/trains.php">Trains</a></li>
+                        <li><a href="http://www.translink.com.au/ferries.php">Ferries</a></li>
+                        <li><a href="http://www.translink.com.au/tickets.php">Ticketing</a></li>
+                    </ul>
+                    <form action="http://pan.search.qld.gov.au/search/search.cgi" id="search">
+					<fieldset>
+						<label for="searchbox"><legend>Search TransLink website</legend></label>
+						<input type="hidden" name="num_ranks" value="10">
+						<input type="hidden" name="tiers" value="off">
+						<input type="hidden" name="collection" value="qld-gov">
+						<input type="hidden" name="form" value="2009">
+						<input type="hidden" name="profile" value="translink">
+						<input type="text" name="query" class="default-value" id="searchbox" value="">
+						<input type="submit" value="Search" class="search">
+					</fieldset>
+				</form>
+                </div>
+            </div>
+
+            <div id="left-sidebar">
+            
+	            <div id="quicklinks">
+					<span class="title">Quick links</span>
+	
+	                <ul>
+	                    <li><a href="http://www.translink.com.au/aboutus.php">About us</a></li>
+	                    <li><a href="http://www.translink.com.au/eventsplaces.php">Events and places</a></li>
+	                    <li><a href="http://www.translink.com.au/tt_results.php">Timetables</a></li>
+	                    <li><a href="http://www.translink.com.au/maps.php">Maps</a></li>
+	                    <li><a href="http://www.translink.com.au/planningprojects.php">Planning and projects</a></li>
+	                    <li><a href="http://www.translink.com.au/go.php"><em>go</em> card information</a></li>
+	                    <li><a href="http://www.translink.com.au/media.php">Media</a></li>
+	                    <li><a href="http://www.translink.com.au/links.php">Links</a></li>
+	                    <li><a href="http://www.translink.com.au/contactus.php">Contact us</a></li>
+	                </ul>
+
+	                <a href="http://www.translink.com.au/go.php" title="go card"><img src="images/buttons/gocard.gif" 
+
+alt="go card"></a>
+	                <a href="https://erail.qr.com.au/erail/default.aspx" rel="external" title="erail updates"><img 
+
+src="images/buttons/erail.gif" alt="erail updates"></a>
+	            </div>
+						
+				<div id="twitter" class="twitter">
+					<span class="title">Twitter updates</span>
+	
+	                <div id="twitter_div">
+						<ul id="twitter_update_list"></ul>
+						<div id="image"></div><p><a href="http://twitter.com/TransLinkSEQ" 
+
+id="twitter-link" style="display:block;">
+						Follow us on Twitter</a></p>
+					</div>
+				</div>
+				
+			</div>
+
+			<div id="right-sidebar">
+			
+				<div id="login">
+					<a href="http://www.translink.com.au/go_my.php" title="my go card login"><img 
+
+src="images/buttons/gocardlogin.gif" alt="my go card login"></a>
+				</div>
+			</div>
+
+			<!-- #BeginEditable "MainContent" -->
+			<div id="main-content"><a name="content"></a>
+				<h1>Journey Planner</h1>
+				
+				<div class="breadcrumbs">
+					<a href="http://www.translink.com.au/">Home</a> &gt;
+					Journey Planner				</div>
+
+<form 
+	name="StationTimetable" 
+	method="get" 
+	action="TransLinkEnquiry.asp" 
+	target="_top"
+>            
+	<input type="hidden" name="MaxJourneys" value="5">
+	<input type="hidden" name="PageFrom" value="TransLinkStationTimetable.asp">
+	<input type="hidden" name="Vehicle" value="Train">
+	<input type="hidden" name="WalkDistance" value="0">
+	
+	<h2>Train station timetables</h2>
+		
+				<table class="jpfont jpTableBorder" border="0" cellpadding="5" cellspacing="5" ID="Table2">
+	                
+					<!-- from -->
+					<tr valign="bottom">
+						<th nowrap class="label_font">From station</th>
+						</tr>
+	               
+					<tr valign="bottom">
+						<td nowrap>
+						<select name=FromSuburb width=160 STYLE="width: 160px"><option value="Albion Railway Station">Albion </option><option value="Alderley Railway Station">Alderley </option><option value="Altandi Railway Station">Altandi </option><option value="Ascot Railway Station">Ascot </option><option value="Auchenflower Railway Station">Auchenflower </option><option value="Bald Hills Railway Station">Bald Hills </option><option value="Banoon Railway Station">Banoon </option><option value="Banyo Railway Station">Banyo </option><option value="Beenleigh Railway Station">Beenleigh </option><option value="Beerburrum Railway Station">Beerburrum </option><option value="Beerwah Railway Station">Beerwah </option><option value="Bethania Railway Station">Bethania </option><option value="Bindha Railway Station">Bindha </option><option value="Birkdale Railway Station">Birkdale </option><option value="Boondall Railway Station">Boondall </option><option value="Booval Railway Station">Booval </option><option value="Bowen Hills Railway Station">Bowen Hills </option><option value="Bray Park Railway Station">Bray Park </option><option value="Bundamba Railway Station">Bundamba </option><option value="Bunour Railway Station">Bunour </option><option value="Buranda Railway Station">Buranda </option><option value="Burpengary Railway Station">Burpengary </option><option value="Caboolture Railway Station">Caboolture </option><option value="Cannon Hill Railway Station">Cannon Hill </option><option value="Carseldine Railway Station">Carseldine </option><option value="Central Railway Station">Central </option><option value="Chelmer Railway Station">Chelmer </option><option value="Clayfield Railway Station">Clayfield </option><option value="Cleveland Railway Station">Cleveland </option><option value="Coomera Railway Station">Coomera </option><option value="Cooper's Plains Railway Station">Cooper's Plains </option><option value="Cooran Railway Station">Cooran </option><option value="Cooroy Railway Station">Cooroy </option><option value="Coorparoo Railway Station">Coorparoo </option><option value="Corinda Railway Station">Corinda </option><option value="Dakabin Railway Station">Dakabin </option><option value="Darra Railway Station">Darra </option><option value="Deagon Railway Station">Deagon </option><option value="Dinmore Railway Station">Dinmore </option><option value="Domestic Airport Railway Station">Domestic Airport </option><option value="Doomben Railway Station">Doomben </option><option value="Dutton Park Railway Station">Dutton Park </option><option value="Eagle Farm Railway Station">Eagle Farm </option><option value="Eagle Junction Railway Station">Eagle Junction </option><option value="East Ipswich Railway Station">East Ipswich </option><option value="Ebbw Vale Railway Station">Ebbw Vale </option><option value="Eden's Landing Railway Station">Eden's Landing </option><option value="Elimbah Railway Station">Elimbah </option><option value="Enoggera Railway Station">Enoggera </option><option value="Eudlo Railway Station">Eudlo </option><option value="Eumundi Railway Station">Eumundi </option><option value="Exhibition Railway Station Arrive">Exhibition  Arrive</option><option value="Fairfield Railway Station">Fairfield </option><option value="Ferny Grove Railway Station">Ferny Grove </option><option value="Fortitude Valley Railway Station (Brunswick St)">Fortitude Valley  (Brunswick St)</option><option value="Fruitgrove Railway Station">Fruitgrove </option><option value="Gailes Railway Station">Gailes </option><option value="Gaythorne Railway Station">Gaythorne </option><option value="Geebung Railway Station">Geebung </option><option value="Glasshouse Mountains Railway Station">Glasshouse Mountains </option><option value="Goodna Railway Station">Goodna </option><option value="Graceville Railway Station">Graceville </option><option value="Grovely Railway Station">Grovely </option><option value="Gympie North Railway Station">Gympie North </option><option value="Helensvale Railway Station">Helensvale </option><option value="Hemmant Railway Station">Hemmant </option><option value="Hendra Railway Station">Hendra </option><option value="Holmview Railway Station">Holmview </option><option value="Indooroopilly Railway Station">Indooroopilly </option><option value="International Airport Railway Station">International Airport </option><option value="Ipswich Railway Station">Ipswich </option><option value="Karrabin Railway Station">Karrabin </option><option value="Keperra Railway Station">Keperra </option><option value="Kingston Railway Station">Kingston </option><option value="Kuraby Railway Station">Kuraby </option><option value="Landsborough Railway Station">Landsborough </option><option value="Lawnton Railway Station">Lawnton </option><option value="Lindum Railway Station">Lindum </option><option value="Loganlea Railway Station">Loganlea </option><option value="Lota Railway Station">Lota </option><option value="Manly Railway Station">Manly </option><option value="Meeandah Railway Station">Meeandah </option><option value="Milton Railway Station">Milton </option><option value="Mitchelton Railway Station">Mitchelton </option><option value="Mooloolah Railway Station">Mooloolah </option><option value="Moorooka Railway Station">Moorooka </option><option value="Morayfield Railway Station">Morayfield </option><option value="Morningside Railway Station">Morningside </option><option value="Murarrie Railway Station">Murarrie </option><option value="Nambour Railway Station">Nambour </option><option value="Narangba Railway Station">Narangba </option><option value="Nerang Railway Station">Nerang </option><option value="Newmarket Railway Station">Newmarket </option><option value="Norman Park Railway Station">Norman Park </option><option value="North Boondall Railway Station">North Boondall </option><option value="Northgate Railway Station">Northgate </option><option value="Nudgee Railway Station">Nudgee </option><option value="Nundah Railway Station">Nundah </option><option value="Old Gympie Railway Station">Old Gympie </option><option value="Ormeau Railway Station">Ormeau </option><option value="Ormiston Railway Station">Ormiston </option><option value="Oxford Park Railway Station">Oxford Park </option><option value="Oxley Railway Station">Oxley </option><option value="Palmwoods Railway Station">Palmwoods </option><option value="Park Road Railway Station">Park Road </option><option value="Petrie Railway Station">Petrie </option><option value="Pinkenba Railway Station">Pinkenba </option><option value="Pomona Railway Station">Pomona </option><option value="Redbank Railway Station">Redbank </option><option value="Riverview Railway Station">Riverview </option><option value="Robina Railway Station">Robina </option><option value="Rocklea Railway Station">Rocklea </option><option value="Roma Street Railway Station">Roma Street </option><option value="Rosewood Railway Station">Rosewood </option><option value="Runcorn Railway Station">Runcorn </option><option value="Salisbury Railway Station">Salisbury </option><option value="Sandgate Railway Station">Sandgate </option><option value="Sherwood Railway Station">Sherwood </option><option value="Shorncliffe Railway Station">Shorncliffe </option><option value="South Bank Railway Station (Vulture St)">South Bank  (Vulture St)</option><option value="South Brisbane Railway Station">South Brisbane </option><option value="Strathpine Railway Station">Strathpine </option><option value="Sunnybank Railway Station">Sunnybank </option><option value="Sunshine Railway Station">Sunshine </option><option value="Taringa Railway Station">Taringa </option><option value="Tennyson Railway Station">Tennyson </option><option value="Thagoona Railway Station">Thagoona </option><option value="Thomas Street Railway Station">Thomas Street </option><option value="Thorneside Railway Station">Thorneside </option><option value="Toombul Railway Station">Toombul </option><option value="Toowong Railway Station">Toowong </option><option value="Traveston Railway Station">Traveston </option><option value="Trinder Park Railway Station">Trinder Park </option><option value="Virginia Railway Station">Virginia </option><option value="Wacol Railway Station">Wacol </option><option value="Walloon Railway Station">Walloon </option><option value="Wellington Point Railway Station">Wellington Point </option><option value="Wilston Railway Station">Wilston </option><option value="Windsor Railway Station">Windsor </option><option value="Woodridge Railway Station">Woodridge </option><option value="Wooloowin Railway Station">Wooloowin </option><option value="Woombye Railway Station">Woombye </option><option value="Wulkuraka Railway Station">Wulkuraka </option><option value="Wynnum Central Railway Station">Wynnum Central </option><option value="Wynnum North Railway Station">Wynnum North </option><option value="Wynnum Railway Station">Wynnum </option><option value="Yandina Railway Station">Yandina </option><option value="Yarongmulu Railway Station">Yarongmulu </option><option value="Yeerongpilly Railway Station">Yeerongpilly </option><option value="Yeronga Railway Station">Yeronga </option><option value="Zillmere Railway Station">Zillmere </option></select>
+						<a style="TEXT-DECORATION: NONE" target=help href="Help/StationFromToHelp.asp" onclick='window.open ("Help/StationFromToHelp.asp", "TransLinkHelpWindow", "scrollbars=no, resizable=1,width=400,height=440"); return false'>
+	                            <img border=0  alt="Help" src="http://www.translink.com.au/images/journeyplanner/help.png">
+                            </a></td>
+					</tr>
+                
+					<!-- to -->
+					<tr valign="bottom">
+						<th nowrap class="label_font">To station</th>
+					</tr>
+					<tr valign="bottom">
+						<td nowrap>
+						<select name=ToSuburb width=160 STYLE="width: 160px"><option value="Albion Railway Station">Albion </option><option value="Alderley Railway Station">Alderley </option><option value="Altandi Railway Station">Altandi </option><option value="Ascot Railway Station">Ascot </option><option value="Auchenflower Railway Station">Auchenflower </option><option value="Bald Hills Railway Station">Bald Hills </option><option value="Banoon Railway Station">Banoon </option><option value="Banyo Railway Station">Banyo </option><option value="Beenleigh Railway Station">Beenleigh </option><option value="Beerburrum Railway Station">Beerburrum </option><option value="Beerwah Railway Station">Beerwah </option><option value="Bethania Railway Station">Bethania </option><option value="Bindha Railway Station">Bindha </option><option value="Birkdale Railway Station">Birkdale </option><option value="Boondall Railway Station">Boondall </option><option value="Booval Railway Station">Booval </option><option value="Bowen Hills Railway Station">Bowen Hills </option><option value="Bray Park Railway Station">Bray Park </option><option value="Bundamba Railway Station">Bundamba </option><option value="Bunour Railway Station">Bunour </option><option value="Buranda Railway Station">Buranda </option><option value="Burpengary Railway Station">Burpengary </option><option value="Caboolture Railway Station">Caboolture </option><option value="Cannon Hill Railway Station">Cannon Hill </option><option value="Carseldine Railway Station">Carseldine </option><option value="Central Railway Station">Central </option><option value="Chelmer Railway Station">Chelmer </option><option value="Clayfield Railway Station">Clayfield </option><option value="Cleveland Railway Station">Cleveland </option><option value="Coomera Railway Station">Coomera </option><option value="Cooper's Plains Railway Station">Cooper's Plains </option><option value="Cooran Railway Station">Cooran </option><option value="Cooroy Railway Station">Cooroy </option><option value="Coorparoo Railway Station">Coorparoo </option><option value="Corinda Railway Station">Corinda </option><option value="Dakabin Railway Station">Dakabin </option><option value="Darra Railway Station">Darra </option><option value="Deagon Railway Station">Deagon </option><option value="Dinmore Railway Station">Dinmore </option><option value="Domestic Airport Railway Station">Domestic Airport </option><option value="Doomben Railway Station">Doomben </option><option value="Dutton Park Railway Station">Dutton Park </option><option value="Eagle Farm Railway Station">Eagle Farm </option><option value="Eagle Junction Railway Station">Eagle Junction </option><option value="East Ipswich Railway Station">East Ipswich </option><option value="Ebbw Vale Railway Station">Ebbw Vale </option><option value="Eden's Landing Railway Station">Eden's Landing </option><option value="Elimbah Railway Station">Elimbah </option><option value="Enoggera Railway Station">Enoggera </option><option value="Eudlo Railway Station">Eudlo </option><option value="Eumundi Railway Station">Eumundi </option><option value="Exhibition Railway Station Arrive">Exhibition  Arrive</option><option value="Fairfield Railway Station">Fairfield </option><option value="Ferny Grove Railway Station">Ferny Grove </option><option value="Fortitude Valley Railway Station (Brunswick St)">Fortitude Valley  (Brunswick St)</option><option value="Fruitgrove Railway Station">Fruitgrove </option><option value="Gailes Railway Station">Gailes </option><option value="Gaythorne Railway Station">Gaythorne </option><option value="Geebung Railway Station">Geebung </option><option value="Glasshouse Mountains Railway Station">Glasshouse Mountains </option><option value="Goodna Railway Station">Goodna </option><option value="Graceville Railway Station">Graceville </option><option value="Grovely Railway Station">Grovely </option><option value="Gympie North Railway Station">Gympie North </option><option value="Helensvale Railway Station">Helensvale </option><option value="Hemmant Railway Station">Hemmant </option><option value="Hendra Railway Station">Hendra </option><option value="Holmview Railway Station">Holmview </option><option value="Indooroopilly Railway Station">Indooroopilly </option><option value="International Airport Railway Station">International Airport </option><option value="Ipswich Railway Station">Ipswich </option><option value="Karrabin Railway Station">Karrabin </option><option value="Keperra Railway Station">Keperra </option><option value="Kingston Railway Station">Kingston </option><option value="Kuraby Railway Station">Kuraby </option><option value="Landsborough Railway Station">Landsborough </option><option value="Lawnton Railway Station">Lawnton </option><option value="Lindum Railway Station">Lindum </option><option value="Loganlea Railway Station">Loganlea </option><option value="Lota Railway Station">Lota </option><option value="Manly Railway Station">Manly </option><option value="Meeandah Railway Station">Meeandah </option><option value="Milton Railway Station">Milton </option><option value="Mitchelton Railway Station">Mitchelton </option><option value="Mooloolah Railway Station">Mooloolah </option><option value="Moorooka Railway Station">Moorooka </option><option value="Morayfield Railway Station">Morayfield </option><option value="Morningside Railway Station">Morningside </option><option value="Murarrie Railway Station">Murarrie </option><option value="Nambour Railway Station">Nambour </option><option value="Narangba Railway Station">Narangba </option><option value="Nerang Railway Station">Nerang </option><option value="Newmarket Railway Station">Newmarket </option><option value="Norman Park Railway Station">Norman Park </option><option value="North Boondall Railway Station">North Boondall </option><option value="Northgate Railway Station">Northgate </option><option value="Nudgee Railway Station">Nudgee </option><option value="Nundah Railway Station">Nundah </option><option value="Old Gympie Railway Station">Old Gympie </option><option value="Ormeau Railway Station">Ormeau </option><option value="Ormiston Railway Station">Ormiston </option><option value="Oxford Park Railway Station">Oxford Park </option><option value="Oxley Railway Station">Oxley </option><option value="Palmwoods Railway Station">Palmwoods </option><option value="Park Road Railway Station">Park Road </option><option value="Petrie Railway Station">Petrie </option><option value="Pinkenba Railway Station">Pinkenba </option><option value="Pomona Railway Station">Pomona </option><option value="Redbank Railway Station">Redbank </option><option value="Riverview Railway Station">Riverview </option><option value="Robina Railway Station">Robina </option><option value="Rocklea Railway Station">Rocklea </option><option value="Roma Street Railway Station">Roma Street </option><option value="Rosewood Railway Station">Rosewood </option><option value="Runcorn Railway Station">Runcorn </option><option value="Salisbury Railway Station">Salisbury </option><option value="Sandgate Railway Station">Sandgate </option><option value="Sherwood Railway Station">Sherwood </option><option value="Shorncliffe Railway Station">Shorncliffe </option><option value="South Bank Railway Station (Vulture St)">South Bank  (Vulture St)</option><option value="South Brisbane Railway Station">South Brisbane </option><option value="Strathpine Railway Station">Strathpine </option><option value="Sunnybank Railway Station">Sunnybank </option><option value="Sunshine Railway Station">Sunshine </option><option value="Taringa Railway Station">Taringa </option><option value="Tennyson Railway Station">Tennyson </option><option value="Thagoona Railway Station">Thagoona </option><option value="Thomas Street Railway Station">Thomas Street </option><option value="Thorneside Railway Station">Thorneside </option><option value="Toombul Railway Station">Toombul </option><option value="Toowong Railway Station">Toowong </option><option value="Traveston Railway Station">Traveston </option><option value="Trinder Park Railway Station">Trinder Park </option><option value="Virginia Railway Station">Virginia </option><option value="Wacol Railway Station">Wacol </option><option value="Walloon Railway Station">Walloon </option><option value="Wellington Point Railway Station">Wellington Point </option><option value="Wilston Railway Station">Wilston </option><option value="Windsor Railway Station">Windsor </option><option value="Woodridge Railway Station">Woodridge </option><option value="Wooloowin Railway Station">Wooloowin </option><option value="Woombye Railway Station">Woombye </option><option value="Wulkuraka Railway Station">Wulkuraka </option><option value="Wynnum Central Railway Station">Wynnum Central </option><option value="Wynnum North Railway Station">Wynnum North </option><option value="Wynnum Railway Station">Wynnum </option><option value="Yandina Railway Station">Yandina </option><option value="Yarongmulu Railway Station">Yarongmulu </option><option value="Yeerongpilly Railway Station">Yeerongpilly </option><option value="Yeronga Railway Station">Yeronga </option><option value="Zillmere Railway Station">Zillmere </option></select>
+						</td>
+					</tr>
+	   	                
+					<!-- when -->
+					<tr valign="bottom">
+						<th nowrap class="label_font">When</th>
+					</tr>
+						<tr valign="bottom">
+						<td nowrap align="left">
+							<select name="IsAfter" id="when">
+								<option value="A" id="when-A" selected >Leave After...</option>
+								<option value="B" id="when-B"  >Arrive Before...</option>
+								<option value="E" id="when-E"  >First of the day</option>
+								<option value="L" id="when-L"  >Last of the day</option>
+							</select>
+						</td>
+					</tr>
+	                 
+					<!-- time -->
+					<tr valign="bottom">
+						<td nowrap align="left">
+
+                        <select name="JourneyTimeHours" ID="Select2">
+                            
+							<option value="1"  >1</option>
+							
+							<option value="2"  >2</option>
+							
+							<option value="3"  >3</option>
+							
+							<option value="4"  >4</option>
+							
+							<option value="5"  >5</option>
+							
+							<option value="6"  >6</option>
+							
+							<option value="7"  selected  >7</option>
+							
+							<option value="8"  >8</option>
+							
+							<option value="9"  >9</option>
+							
+							<option value="10"  >10</option>
+							
+							<option value="11"  >11</option>
+							
+							<option value="12"  >12</option>
+							
+					    </select>
+					    <select name="JourneyTimeMinutes" ID="Select3">
+                            
+							<option value="00"  >:00</option>
+							
+							<option value="05"  >:05</option>
+							
+							<option value="10"  >:10</option>
+							
+							<option value="15"  >:15</option>
+							
+							<option value="20"  >:20</option>
+							
+							<option value="25"  >:25</option>
+							
+							<option value="30"  >:30</option>
+							
+							<option value="35"  >:35</option>
+							
+							<option value="40"  >:40</option>
+							
+							<option value="45"  selected  >:45</option>
+							
+							<option value="50"  >:50</option>
+							
+							<option value="55"  >:55</option>
+							
+					    </select>
+					    <select name="JourneyTimeAmPm" ID="Select4">
+							<option value="AM" selected>AM
+							<option value="PM">PM
+						</select>
+
+						</td>
+					</tr>
+	                
+					<tr> <td nowrap class="jpVerticalSpacing"/></tr>
+
+					<!-- date -->
+					
+	                
+					<tr valign="bottom">
+						<td nowrap align="left">
+							<select name="Date" ID="date" WIDTH="200" STYLE="width: 200px">
+								
+								
+								<option value="11/3/2009">11/3/2009</option>
+								11/3/2009 <= 12/3/2009
+								<option value="3/11/2009"
+									3/11/2009"
+										 
+										Selected
+										>
+										
+										Today
+										 
+								</option>
+										(Tue)
+								
+									
+								<option value="4/11/2009"
+									4/11/2009"
+										>
+										
+										Tomorrow
+										 
+								</option>
+										(Wed)
+								
+									
+								<option value="5/11/2009"
+									5/11/2009"
+										>
+										5-Nov-2009 
+								</option>
+										(Thu)
+								
+									
+								<option value="6/11/2009"
+									6/11/2009"
+										>
+										6-Nov-2009 
+								</option>
+										(Fri)
+								
+									
+								<option value="7/11/2009"
+									7/11/2009"
+										>
+										7-Nov-2009 
+								</option>
+										(Sat)
+								
+									
+								<option value="8/11/2009"
+									8/11/2009"
+										>
+										8-Nov-2009 
+								</option>
+										(Sun)
+								
+									
+								<option value="9/11/2009"
+									9/11/2009"
+										>
+										9-Nov-2009 
+								</option>
+										(Mon)
+								
+									
+								<option value="10/11/2009"
+									10/11/2009"
+										>
+										10-Nov-2009 
+								</option>
+										(Tue)
+								
+									
+								<option value="11/11/2009"
+									11/11/2009"
+										>
+										11-Nov-2009 
+								</option>
+										(Wed)
+								
+									
+								<option value="12/11/2009"
+									12/11/2009"
+										>
+										12-Nov-2009 
+								</option>
+										(Thu)
+								
+									
+								<option value="13/11/2009"
+									13/11/2009"
+										>
+										13-Nov-2009 
+								</option>
+										(Fri)
+								
+									
+								<option value="14/11/2009"
+									14/11/2009"
+										>
+										14-Nov-2009 
+								</option>
+										(Sat)
+								
+									
+								<option value="15/11/2009"
+									15/11/2009"
+										>
+										15-Nov-2009 
+								</option>
+										(Sun)
+								
+									
+								<option value="16/11/2009"
+									16/11/2009"
+										>
+										16-Nov-2009 
+								</option>
+										(Mon)
+								
+									
+								<option value="17/11/2009"
+									17/11/2009"
+										>
+										17-Nov-2009 
+								</option>
+										(Tue)
+								
+									
+								<option value="18/11/2009"
+									18/11/2009"
+										>
+										18-Nov-2009 
+								</option>
+										(Wed)
+								
+									
+								<option value="19/11/2009"
+									19/11/2009"
+										>
+										19-Nov-2009 
+								</option>
+										(Thu)
+								
+									
+								<option value="20/11/2009"
+									20/11/2009"
+										>
+										20-Nov-2009 
+								</option>
+										(Fri)
+								
+									
+								<option value="21/11/2009"
+									21/11/2009"
+										>
+										21-Nov-2009 
+								</option>
+										(Sat)
+								
+									
+								<option value="22/11/2009"
+									22/11/2009"
+										>
+										22-Nov-2009 
+								</option>
+										(Sun)
+								
+									
+								<option value="23/11/2009"
+									23/11/2009"
+										>
+										23-Nov-2009 
+								</option>
+										(Mon)
+								
+									
+								<option value="24/11/2009"
+									24/11/2009"
+										>
+										24-Nov-2009 
+								</option>
+										(Tue)
+								
+									
+								<option value="25/11/2009"
+									25/11/2009"
+										>
+										25-Nov-2009 
+								</option>
+										(Wed)
+								
+									
+								<option value="26/11/2009"
+									26/11/2009"
+										>
+										26-Nov-2009 
+								</option>
+										(Thu)
+								
+									
+								<option value="27/11/2009"
+									27/11/2009"
+										>
+										27-Nov-2009 
+								</option>
+										(Fri)
+								
+									
+								<option value="28/11/2009"
+									28/11/2009"
+										>
+										28-Nov-2009 
+								</option>
+										(Sat)
+								
+									
+								<option value="29/11/2009"
+									29/11/2009"
+										>
+										29-Nov-2009 
+								</option>
+										(Sun)
+								
+									
+								<option value="30/11/2009"
+									30/11/2009"
+										>
+										30-Nov-2009 
+								</option>
+										(Mon)
+								
+									
+								<option value="1/12/2009"
+									1/12/2009"
+										>
+										1-Dec-2009 
+								</option>
+										(Tue)
+								
+									
+								<option value="2/12/2009"
+									2/12/2009"
+										>
+										2-Dec-2009 
+								</option>
+										(Wed)
+								
+									
+								<option value="3/12/2009"
+									3/12/2009"
+										>
+										3-Dec-2009 
+								</option>
+										(Thu)
+								
+									
+							</select>
+<a style="TEXT-DECORATION: NONE" target=help href="Help/StationWhenHelp.asp" onclick='window.open ("Help/StationWhenHelp.asp", "TransLinkHelpWindow", "scrollbars=no, resizable=1,width=400,height=440"); return false'>
+	                            <img border=0  alt="Help" src="http://www.translink.com.au/images/journeyplanner/help.png">
+                            </a>
+						</td>
+						</tr>
+
+					<!-- go -->
+					<tr valign="bottom">
+						<td nowrap>
+							<br><input type="image" src="Images/findjourney.gif" ID="Image2" NAME="Image2" alt="[Find Journey]">
+						</td>
+					</tr>
+				</table>
+			
+</form>
+<br>
+	        </div>			
+			
+			<!-- #EndEditable -->
+			
+			<div id="footer">
+                <p class="updated">Last updated	
+				04 July 2009</p>
+
+                <hr>
+
+                <p>
+                	<a title="Copyright" href="http://www.translink.com.au/copyright_tl.php">Copyright</a> | 
+                	<a title="Disclaimer" href="http://www.translink.com.au/disclaimer.php">Disclaimer</a> | 
+                	<a title="Privacy" href="http://www.translink.com.au/privacy_tl.php">Privacy</a> | 
+                	<a title="Other languages" href="http://www.qld.gov.au/languages/" rel="external">Other languages</a>
+                </p>
+
+                <p><strong>&copy; TransLink Transit Authority 2009</strong></p>	
+                
+                <p><a href="http://www.qld.gov.au"><img src="images/header/qglogo.jpg" alt="Queensland Government"></a></p>
+                <!-- #BeginEditable "Footer" -->
+	
+				<!-- #EndEditable -->
+            </div>
+        </div>
+<script src="includes/gatag.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- #BeginEditable "Analytics" -->
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-977631-1");
+pageTracker._setDomainName("translink.com.au"); 
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- #EndEditable -->
+<!-- Twitter updates scripts -->
+<script type="text/javascript" src="includes/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/TransLinkSEQ.json?callback=twitterCallback2&amp;count=3"></script>
+<!-- End Twitter updates scripts -->
+</body>
+<!-- #EndTemplate -->
+</html>
