@@ -4,7 +4,6 @@ require 'rubygems'
 require 'rest_client'
 require 'nokogiri'
 
-RestClient.log = 'RC.log'
 
 origin = 'CENTRAL+RAILWAY+STATION'
 destination = 'COORPAROO+RAILWAY+STATION'
