@@ -2,10 +2,10 @@
 
 require 'rubygems'
 require 'rest_client'
-#require 'hpricot'
 require 'nokogiri'
 
 RestClient.log = 'RC.log'
+
 
 #response = RestClient.get 'http://jp.translink.com.au/TransLinkstationTimetable.asp'
 #f = File.open('stations.html', 'w')
