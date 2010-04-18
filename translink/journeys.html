@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="en-au">
+<meta name="viewport" content="width=device-width, height=device-height">
+
+
+<script type="text/javascript" src="includes/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="includes/tl.min.js"></script>
+
+
+
+
+
+
+<style type="text/css" media="screen and (min-width: 481px)">
+-->
+<!--
+@import url("styles/reset-min.css?1254974001");
+@import url("styles/style.css?1261531697");
+-->
+</style>
+<style type="text/css" media="print and (min-width: 481px)">
+
+<!--
+@import url("styles/print.css?1261462695");
+-->
+</style>
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="styles/reset-min.css?1254974001">
+<link rel="stylesheet" type="text/css" href="styles/style.css?1261531697">
+<link rel="stylesheet" type="text/css" href="styles/print.css?1261462695" media="print">
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="styles/style-ie7.css?1254974001" media="screen">
+<![endif]-->
+<!--<link href="styles/handheld.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">-->
+<link href="styles/small.css?1254974000" rel="alternate stylesheet" type="text/css" title="Mobile device">
+
+<title>TransLink | Journey Planner</title>
+
+
+<meta name="description" content="Use the TransLink journey planner to plan your journey around South East Queensland on bus, train and ferry.">
+<meta name="DC.Description" content="TransLink journey planner, bus, train, ferry, South East Queensland.">
+<meta name="keywords" content="TransLink,public,transport,information,bus,trains,ferries,timetables">
+<meta name="DC.Subject" content="TransLink,public,transport,information,bus,trains,ferries,timetables">
+<meta name="DC.Creator" content="">
+<meta name="DC.Date.Created" scheme="ISO8601" content="2008-07-01">
+<meta name="DC.Date.Modified" scheme="ISO8601" content="2010-01-18">
+<meta name="DC.Date.ValidTo" scheme="ISO8601" content="2011-01-18">
+
+
+
+<meta name="DC.Coverage.Spatial" content="Brisbane, Gold Coast, Sunshine Coast, Logan, Ipswich, Redcliffe, South East Queensland">
+
+<meta name="DC.Identifier" scheme="URI" content="http://www.translink.com.au">
+
+<meta name="DC.Language" scheme="RFC1766" content="en">
+
+<meta name="DC.Format" scheme="IMT" content="text/html">
+
+<meta name="DC.Publisher" scheme="AGLSAgent" content="corporateName=TransLink Transit Authority;jurisdiction=Queensland">
+
+<meta name="copyright" content="Copyright TransLink Transit Authority 2009">
+<meta name="DC.Rights" content="Copyright TransLink Transit Authority 2009">
+</head>
+<body>
+        <div id="access">
+            <span class="title">Navigation</span>
+            <ul>
+                <li><a href="#content" title="Skip to content">Skip to content</a></li>
+                <li class="jpmobile"><a href="http://jp.translink.com.au/mobile/" title="Mobile Journey Planner">Mobile 
+
+journey planner</a></li>
+                <li class="jpadvanced"><a href="http://jp.translink.com.au/" title="Journey planner">Advanced journey 
+
+planner</a></li>
+                <li class="jp"><a href="#journeyplanner" title="Skip to journey planner">Skip to journey planner</a></li>
+            </ul>
+        </div>
+
+        <div id="page-wrap">
+            <div id="header">
+                
+                <a title="TransLink" href="http://www.translink.com.au/" class="logo"><img alt="TransLink Transit Authority logo" src="images/header/logo.gif" width="221" height="94"></a>
+
+                <a href="http://www.translink.com.au/contactus.php" id="header-phone" title="Contact us">&nbsp;</a>
+
+                <div id="tools">
+                    <a title="Home" href="http://www.translink.com.au/">Home</a> |
+                    <a title="Employment" href="http://www.translink.com.au/employment.php">Employment</a> |
+                    <a title="Site map" href="http://www.translink.com.au/sitemap.php">Site map</a> |
+                    <a title="Contact us" href="http://www.translink.com.au/contactus.php">Contact us</a> |
+                    <a title="Help" href="http://www.translink.com.au/help.php">Help</a>
+                </div>
+                
+                <img src="images/header/blob.gif" alt="" width="297" height="94">
+                
+                <div id="mainnav"><a name="nav"></a>
+                    <span class="title">Main navigation</span>
+                    
+                    <ul class="mainnav">
+                        <li><a href="http://www.translink.com.au/buses.php">Buses</a></li>
+                        <li><a href="http://www.translink.com.au/trains.php">Trains</a></li>
+                        <li><a href="http://www.translink.com.au/ferries.php">Ferries</a></li>
+                        <li><a href="http://www.translink.com.au/ticketsfares.php">Tickets and fares</a></li>
+                    </ul>
+                    <form action="http://pan.search.qld.gov.au/search/search.cgi" id="search">
+                    <fieldset>
+                        <input type="hidden" name="num_ranks" value="10">
+                        <input type="hidden" name="tiers" value="off">
+                        <input type="hidden" name="collection" value="qld-gov">
+                        <input type="hidden" name="profile" value="translink">
+                        <input type="hidden" name="form" value="2009">
+                        <input type="text" name="query" class="default-value" id="searchbox" value="">
+                        <label for="searchbox">Search TransLink website</label>
+                        <input type="submit" value="Search" class="search">
+                    </fieldset>
+                </form>
+                </div>
+            </div>
+
+            <div id="left-sidebar">
+            
+	            <div id="quicklinks">
+					<span class="title">Quick links</span>
+	
+	                 <ul>
+                        <li><a href="http://www.translink.com.au/aboutus.php">About TransLink</a></li>
+                        <li><a href="http://www.translink.com.au/eventsplaces.php">Events and places</a></li>
+                        <li><a href="http://www.translink.com.au/timetables.php">Timetables</a></li>
+                        <li><a href="http://www.translink.com.au/maps.php">Maps</a></li>
+                        <li><a href="http://www.translink.com.au/usingthenetwork.php">Using the network </a></li>
+                        <li><a href="http://www.translink.com.au/planningprojects.php">Planning and projects</a></li>
+                        <li><a href="http://www.translink.com.au/mediareleases.php">Media</a></li>
+                    </ul>
+
+	            </div>
+				<div id="gocard">
+                    <span class="title"><em>go</em> card</span>
+
+                	<div style="float:right;"><a href="http://www.translink.com.au/go.php"><img src="images/other/cards.png" alt="go cards" width="60" height="50"></a></div>
+                
+                                    
+                    <ul>
+                        <li><a href="http://www.translink.com.au/go.php">About <em>go</em> card</a></li>
+                        <li><a href="http://www.translink.com.au/go_my.php">Register and login</a></li>
+                        <li><a href="http://www.translink.com.au/go_faq.php">FAQs</a></li>
+                        <li><a href="http://www.translink.com.au/go_downloads.php">Brochures, video clips and forms</a></li>
+                        <li><a href="http://www.translink.com.au/agents.php">Where to buy and top up</a></li>
+                    </ul>
+
+                </div>						
+				<div id="twitter" class="twitter">
+					<span class="title">Twitter updates</span>
+	
+	                <div id="twitter_div">
+						<!--<ul id="twitter_update_list"></ul>-->
+						<div id="image"></div><p><a href="http://twitter.com/TransLinkSEQ" 
+
+id="twitter-link" style="display:block;">
+						Follow us on Twitter</a></p>
+					</div>
+
+<a href="https://erail.qr.com.au/erail/default.aspx" rel="external" title="erail updates"><img src="images/buttons/erail.gif" alt="erail updates" width="150" height="33"></a>
+				</div>
+				
+			</div>
+
+			<div id="right-sidebar">
+			
+				<div id="login">
+                    <a href="http://www.translink.com.au/go_my.php" title="my go card login"><img src="images/buttons/gocardlogin.gif" alt="my go card login" width="212" height="33"></a>
+                </div>
+
+			</div>
+
+		
+			<div id="main-content"><a name="content"></a>
+				<h1>Journey Planner</h1>
+				
+				<div class="breadcrumbs">
+					<a href="http://www.translink.com.au/">Home</a> &gt;
+					Journey Planner				</div>
+<table class="subpage_box" cellpadding="0" ID="Table2">
+<tr>
+<td>
+<h2>daily timetable</h2>
+<BR>
+
+
+<span class="PageInfo">Based on data generated on <b>Wednesday, April 14, 2010</b>.<br>
+This timetable shows all direct trips from <b>Central Railway Station</b> to <b>Coorparoo Railway Station</b> for the day.<br>
+Weekdays Timetable for Monday, April 19, 2010<br><br>
+
+
+
+For details about a particular trip, click on the Route Code for that trip.</span><br><br>
+
+<script type="text/javascript">
+function DisplayPrintablePage (url)
+{
+	window.open(url, "test", "height=500,width=725,menubar=no,toolbar=no,scrollbars,resizable,menubar");
+	return false;
+}
+</script>
+
+<input 
+	type="image" 
+	src="Images/Print.gif"
+	alt="Print"
+	name="Print" 
+	value=" Print " 
+	onclick="DisplayPrintablePage('TransLinkFromToTimetable.asp?Origin=CENTRAL+RAILWAY+STATION&Destination=COORPAROO+RAILWAY+STATION&Date=19/4/2010&PrintablePage=1')"
+/><br><br>
+
+
+
+<div align="center" class="Note">&quot;Times presented in this website are
+for Queensland (without daylight saving).<br>Times for stops outside
+Queensland should be adjusted accordingly.&quot;<br>
+
+
+<br><br>
+
+<table cellpadding="3" border="1" align="center"><tr valign="bottom"><th align="center" class="TimetableHeading">Location</th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263563&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+4%3A57&amp;DepartTime=+4%3A40">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263564&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+5%3A28&amp;DepartTime=+5%3A11">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263565&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+5%3A45&amp;DepartTime=+5%3A28">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263606&amp;Date=19/4/2010&amp;Route=BHTS&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+5%3A55&amp;DepartTime=+5%3A38">BHTS</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263566&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+6%3A15&amp;DepartTime=+5%3A58">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263567&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+6%3A31&amp;DepartTime=+6%3A14">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263518&amp;Date=19/4/2010&amp;Route=FGCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+7%3A03&amp;DepartTime=+6%3A46">FGCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263519&amp;Date=19/4/2010&amp;Route=FGCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+7%3A34&amp;DepartTime=+7%3A17">FGCL</a></th></tr><tr><td class="TimetableDetails"<i>Dep: </i><b>Central Railway Station</b>&nbsp;&nbsp;<br>Central Rly Station</td><td width="50" class="TimetableDetails"> 4:40am</td><td width="50" class="TimetableDetails"> 5:11am</td><td width="50" class="TimetableDetails"> 5:28am</td><td width="50" class="TimetableDetails"> 5:38am</td><td width="50" class="TimetableDetails"> 5:58am</td><td width="50" class="TimetableDetails"> 6:14am</td><td width="50" class="TimetableDetails"> 6:46am</td><td width="50" class="TimetableDetails"> 7:17am</td></tr><tr><td class="TimetableDetails"<i>Arr: </i><b>Coorparoo Railway Station</b>&nbsp;&nbsp;<br>Coorparoo Rly Station</td><td width="50" class="TimetableDetails"> 4:57am</td><td width="50" class="TimetableDetails"> 5:28am</td><td width="50" class="TimetableDetails"> 5:45am</td><td width="50" class="TimetableDetails"> 5:55am</td><td width="50" class="TimetableDetails"> 6:15am</td><td width="50" class="TimetableDetails"> 6:31am</td><td width="50" class="TimetableDetails"> 7:03am</td><td width="50" class="TimetableDetails"> 7:34am</td></tr></table><br><table cellpadding="3" border="1" align="center"><tr valign="bottom"><th align="center" class="TimetableHeading">Location</th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263520&amp;Date=19/4/2010&amp;Route=FGCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+8%3A04&amp;DepartTime=+7%3A47">FGCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263330&amp;Date=19/4/2010&amp;Route=DBCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+8%3A36&amp;DepartTime=+8%3A18">DBCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263667&amp;Date=19/4/2010&amp;Route=CACL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+9%3A06&amp;DepartTime=+8%3A48">CACL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263568&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=+9%3A36&amp;DepartTime=+9%3A18">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263331&amp;Date=19/4/2010&amp;Route=DBCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=10%3A06&amp;DepartTime=+9%3A48">DBCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263332&amp;Date=19/4/2010&amp;Route=DBCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=10%3A36&amp;DepartTime=10%3A18">DBCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263569&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=11%3A06&amp;DepartTime=10%3A48">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263333&amp;Date=19/4/2010&amp;Route=DBCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=11%3A36&amp;DepartTime=11%3A18">DBCL</a></th></tr><tr><td class="TimetableDetails"<i>Dep: </i><b>Central Railway Station</b>&nbsp;&nbsp;<br>Central Rly Station</td><td width="50" class="TimetableDetails"> 7:47am</td><td width="50" class="TimetableDetails"> 8:18am</td><td width="50" class="TimetableDetails"> 8:48am</td><td width="50" class="TimetableDetails"> 9:18am</td><td width="50" class="TimetableDetails"> 9:48am</td><td width="50" class="TimetableDetails">10:18am</td><td width="50" class="TimetableDetails">10:48am</td><td width="50" class="TimetableDetails">11:18am</td></tr><tr><td class="TimetableDetails"<i>Arr: </i><b>Coorparoo Railway Station</b>&nbsp;&nbsp;<br>Coorparoo Rly Station</td><td width="50" class="TimetableDetails"> 8:04am</td><td width="50" class="TimetableDetails"> 8:36am</td><td width="50" class="TimetableDetails"> 9:06am</td><td width="50" class="TimetableDetails"> 9:36am</td><td width="50" class="TimetableDetails">10:06am</td><td width="50" class="TimetableDetails">10:36am</td><td width="50" class="TimetableDetails">11:06am</td><td width="50" class="TimetableDetails">11:36am</td></tr></table><br><table cellpadding="3" border="1" align="center"><tr valign="bottom"><th align="center" class="TimetableHeading">Location</th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263570&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=12%3A06&amp;DepartTime=11%3A48">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263334&amp;Date=19/4/2010&amp;Route=DBCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=12%3A36&amp;DepartTime=12%3A18">DBCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263571&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=13%3A06&amp;DepartTime=12%3A48">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263335&amp;Date=19/4/2010&amp;Route=DBCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=13%3A36&amp;DepartTime=13%3A18">DBCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263572&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=14%3A06&amp;DepartTime=13%3A48">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263336&amp;Date=19/4/2010&amp;Route=DBCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=14%3A36&amp;DepartTime=14%3A18">DBCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263573&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=15%3A06&amp;DepartTime=14%3A48">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263574&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=15%3A22&amp;DepartTime=15%3A04">BHCL</a></th></tr><tr><td class="TimetableDetails"<i>Dep: </i><b>Central Railway Station</b>&nbsp;&nbsp;<br>Central Rly Station</td><td width="50" class="TimetableDetails">11:48am</td><td width="50" class="TimetableDetails">12:18pm</td><td width="50" class="TimetableDetails">12:48pm</td><td width="50" class="TimetableDetails">1:18pm</td><td width="50" class="TimetableDetails">1:48pm</td><td width="50" class="TimetableDetails">2:18pm</td><td width="50" class="TimetableDetails">2:48pm</td><td width="50" class="TimetableDetails">3:04pm</td></tr><tr><td class="TimetableDetails"<i>Arr: </i><b>Coorparoo Railway Station</b>&nbsp;&nbsp;<br>Coorparoo Rly Station</td><td width="50" class="TimetableDetails">12:06pm</td><td width="50" class="TimetableDetails">12:36pm</td><td width="50" class="TimetableDetails">1:06pm</td><td width="50" class="TimetableDetails">1:36pm</td><td width="50" class="TimetableDetails">2:06pm</td><td width="50" class="TimetableDetails">2:36pm</td><td width="50" class="TimetableDetails">3:06pm</td><td width="50" class="TimetableDetails">3:22pm</td></tr></table><br><table cellpadding="3" border="1" align="center"><tr valign="bottom"><th align="center" class="TimetableHeading">Location</th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263337&amp;Date=19/4/2010&amp;Route=DBCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=15%3A43&amp;DepartTime=15%3A27">DBCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263338&amp;Date=19/4/2010&amp;Route=DBCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=16%3A03&amp;DepartTime=15%3A47">DBCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263575&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=16%3A20&amp;DepartTime=16%3A04">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263576&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=16%3A44&amp;DepartTime=16%3A28">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263577&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=17%3A01&amp;DepartTime=16%3A45">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=273429&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=17%3A14&amp;DepartTime=16%3A58">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263609&amp;Date=19/4/2010&amp;Route=BHMY&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=17%3A23&amp;DepartTime=17%3A07">BHMY</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263339&amp;Date=19/4/2010&amp;Route=DBCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=17%3A41&amp;DepartTime=17%3A25">DBCL</a></th></tr><tr><td class="TimetableDetails"<i>Dep: </i><b>Central Railway Station</b>&nbsp;&nbsp;<br>Central Rly Station</td><td width="50" class="TimetableDetails">3:27pm</td><td width="50" class="TimetableDetails">3:47pm</td><td width="50" class="TimetableDetails">4:04pm</td><td width="50" class="TimetableDetails">4:28pm</td><td width="50" class="TimetableDetails">4:45pm</td><td width="50" class="TimetableDetails">4:58pm</td><td width="50" class="TimetableDetails">5:07pm</td><td width="50" class="TimetableDetails">5:25pm</td></tr><tr><td class="TimetableDetails"<i>Arr: </i><b>Coorparoo Railway Station</b>&nbsp;&nbsp;<br>Coorparoo Rly Station</td><td width="50" class="TimetableDetails">3:43pm</td><td width="50" class="TimetableDetails">4:03pm</td><td width="50" class="TimetableDetails">4:20pm</td><td width="50" class="TimetableDetails">4:44pm</td><td width="50" class="TimetableDetails">5:01pm</td><td width="50" class="TimetableDetails">5:14pm</td><td width="50" class="TimetableDetails">5:23pm</td><td width="50" class="TimetableDetails">5:41pm</td></tr></table><br><table cellpadding="3" border="1" align="center"><tr valign="bottom"><th align="center" class="TimetableHeading">Location</th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263608&amp;Date=19/4/2010&amp;Route=BHTS&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=17%3A52&amp;DepartTime=17%3A36">BHTS</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263580&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=18%3A09&amp;DepartTime=17%3A53">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263581&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=18%3A33&amp;DepartTime=18%3A17">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263582&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=19%3A05&amp;DepartTime=18%3A47">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263583&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=19%3A36&amp;DepartTime=19%3A18">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263584&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=20%3A03&amp;DepartTime=19%3A45">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263585&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=20%3A34&amp;DepartTime=20%3A15">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263586&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=21%3A04&amp;DepartTime=20%3A45">BHCL</a></th></tr><tr><td class="TimetableDetails"<i>Dep: </i><b>Central Railway Station</b>&nbsp;&nbsp;<br>Central Rly Station</td><td width="50" class="TimetableDetails">5:36pm</td><td width="50" class="TimetableDetails">5:53pm</td><td width="50" class="TimetableDetails">6:17pm</td><td width="50" class="TimetableDetails">6:47pm</td><td width="50" class="TimetableDetails">7:18pm</td><td width="50" class="TimetableDetails">7:45pm</td><td width="50" class="TimetableDetails">8:15pm</td><td width="50" class="TimetableDetails">8:45pm</td></tr><tr><td class="TimetableDetails"<i>Arr: </i><b>Coorparoo Railway Station</b>&nbsp;&nbsp;<br>Coorparoo Rly Station</td><td width="50" class="TimetableDetails">5:52pm</td><td width="50" class="TimetableDetails">6:09pm</td><td width="50" class="TimetableDetails">6:33pm</td><td width="50" class="TimetableDetails">7:05pm</td><td width="50" class="TimetableDetails">7:36pm</td><td width="50" class="TimetableDetails">8:03pm</td><td width="50" class="TimetableDetails">8:34pm</td><td width="50" class="TimetableDetails">9:04pm</td></tr></table><br><table cellpadding="3" border="1" align="center"><tr valign="bottom"><th align="center" class="TimetableHeading">Location</th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263587&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=21%3A34&amp;DepartTime=21%3A15">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263588&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=22%3A05&amp;DepartTime=21%3A47">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263589&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=23%3A03&amp;DepartTime=22%3A45">BHCL</a></th><th align="center" class="TimetableRouteNumber"><a href="TransLinkTripTimetable.asp?TripKey=263590&amp;Date=19/4/2010&amp;Route=BHCL&amp;Origin=CENTRAL+RAILWAY+STATION&amp;Destination=COORPAROO+RAILWAY+STATION&amp;ArriveTime=24%3A04&amp;DepartTime=23%3A46">BHCL</a></th></tr><tr><td class="TimetableDetails"<i>Dep: </i><b>Central Railway Station</b>&nbsp;&nbsp;<br>Central Rly Station</td><td width="50" class="TimetableDetails">9:15pm</td><td width="50" class="TimetableDetails">9:47pm</td><td width="50" class="TimetableDetails">10:45pm</td><td width="50" class="TimetableDetails">11:46pm</td></tr><tr><td class="TimetableDetails"<i>Arr: </i><b>Coorparoo Railway Station</b>&nbsp;&nbsp;<br>Coorparoo Rly Station</td><td width="50" class="TimetableDetails">9:34pm</td><td width="50" class="TimetableDetails">10:05pm</td><td width="50" class="TimetableDetails">11:03pm</td><td width="50" class="TimetableDetails">12:04am+</td></tr></table><br>
+</td>
+</tr>
+</table>
+	        </div>			
+			
+			<!-- #EndEditable -->
+			
+			<div id="footer">
+                <p class="updated">Last updated	
+				1 February 2010</p>
+
+                <hr>
+
+                <p>
+                	<a title="Copyright" href="http://www.translink.com.au/copyright_tl.php">Copyright</a> |
+                    <a title="Disclaimer" href="http://www.translink.com.au/disclaimer.php">Disclaimer</a> |
+                    <a title="Privacy" href="http://www.translink.com.au/privacy.php">Privacy</a> |
+                    <a title="Other languages" href="http://www.qld.gov.au/languages/" target="_blank">Other languages</a> |
+					<a title="Right to Information" href="http://www.translink.com.au/righttoinformation.php" >Right to Information</a> |
+					<a title="Declaration of special events" href="http://www.translink.com.au/eventdeclaration.php" >Declaration of special events</a> |
+					<a title="Links" href="http://www.translink.com.au/links.php">Links</a>
+                </p>
+
+                <p><strong>&copy; TransLink Transit Authority 2009</strong></p>	
+                
+                <p><a href="http://www.qld.gov.au"><img src="images/header/qglogo.jpg" alt="Queensland Government"></a></p>
+                <!-- #BeginEditable "Footer" -->
+	
+				<!-- #EndEditable -->
+            </div>
+        </div>
+<script src="includes/gatag.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- #BeginEditable "Analytics" -->
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-977631-1");
+pageTracker._setDomainName("translink.com.au"); 
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- #EndEditable -->
+<!-- Twitter updates scripts -->
+<script type="text/javascript" src="includes/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/TransLinkSEQ.json?callback=twitterCallback2&amp;count=3"></script>
+<!-- End Twitter updates scripts -->
+</body>
+<!-- #EndTemplate -->
+</html>
