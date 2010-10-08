@@ -12,8 +12,8 @@ def isNumeric(s)
 end
 
 @timezone_offset = 10
-searchdate = Date.new(2010,1,1)
-enddate = Date.new(2011,1,1)
+searchdate = Date.new(2011,1,1)
+enddate = Date.new(2012,1,1)
 
 RestClient.log = 'RC.log'
 
