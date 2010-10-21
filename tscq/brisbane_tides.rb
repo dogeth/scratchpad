@@ -50,7 +50,7 @@ while searchdate < enddate
             event.summary = "LT #{lt.html.strip}"
           else
             ht = data.search("//font")
-            event = cal_hightide.even
+            event = cal_hightide.event
             event.summary = "HT #{ht.html.strip}"
           end
           event.start       = eventdate
