@@ -58,21 +58,22 @@
 05/12/2010 10:00 Club Race (Sand Hills - Manly)
 19/12/2010 11:00 Club Race (Sandgate)
 09/01/2011 11:00 Club Race (Victoria Point)
+18/01/2011 19:30 TSCQ Meeting
 22/01/2011       Surf to City (QCYC)
-25/01/2011 19:30 TSCQ Meeting
 29/01/2011 10:00 Club Race (Manly - Wallum Pool)
 30/01/2011       Cruise (Straddie)
 06/02/2011 11:00 MCC Race 1 (Manly)
+15/02/2011 19:30 TSCQ Meeting
 19/02/2011 11:00 TSCQ Regatta
 20/02/2011 10:00 TSCQ Regatta
-22/02/2011 19:30 TSCQ Meeting
 12/03/2011 11:00 TSCQ Regatta (fallback)
 13/03/2011 10:00 TSCQ Regatta (fallback)
 13/03/2011 11:00 Club Race (Sandgate)
-22/03/2011 19:30 TSCQ Meeting
+15/03/2011 19:30 TSCQ Meeting
 26/03/2011 11:00 MCC Race 2 (TBD)
 27/03/2011 10:00 MCC Race 3 (TBD)
 17/04/2011 11:00 MCC Race 4 (Manly)
+19/04/2011 19:30 TSCQ Meeting
 22/04/2011       Cruise (Easter)
 23/04/2011       Cruise (Easter)
 24/04/2011       Cruise (Easter)
@@ -82,40 +83,40 @@
 07/05/2011 19:00 Ladies Night
 14/05/2011 11:00 MCC Race 5 (Manly - Canaipa)
 15/05/2011 10:00 MCC Race 6 (Canaipa - Manly)
+17/05/2011 19:30 TSCQ Meeting
 19/05/2011       Sanctuary Cove International Boat Show
 20/05/2011       Sanctuary Cove International Boat Show
 21/05/2011       Sanctuary Cove International Boat Show
 22/05/2011       Sanctuary Cove International Boat Show
-24/05/2011 19:30 TSCQ Meeting
 05/06/2011 11:00 MCC Race 7 (Manly)
 19/06/2011 11:00 Geoff Wallace Trophy (Victoria Point) (BI)
+21/06/2011 19:30 TSCQ Meeting
 25/06/2011       28th Wintersun
 26/06/2011       28th Wintersun
-28/06/2011 19:30 TSCQ Meeting
 09/07/2011 19:00 TSCQ Trophy Night
 10/07/2011 11:00 MCC Race 8 & 9 (Triangles)
+19/07/2011 19:30 TSCQ Meeting
 24/07/2011 11:00 President's Cup (Raby Bay)
-26/07/2011 19:30 TSCQ Meeting
 14/08/2011 11:00 MCC Race 10 (Manly)
+16/08/2011 19:30 TSCQ Meeting
 17/08/2011       Royal Queensland Show
-23/08/2011 19:30 TSCQ Meeting
 28/08/2011 11:00 Club Race (Raby Bay)
 03/09/2011       Riverfire
 04/09/2011 11:00 Club Race (Wivenhoe Dam) (BI)
 18/09/2011 11:00 MCC Race 11
-27/09/2011 19:30 TSCQ Meeting
+20/09/2011 19:30 TSCQ Meeting
 01/10/2011       St Helena Cup (WMYC)
 02/10/2011       St Helena Cup (WMYC)
 07/10/2011 19:00 Skipper's Dinner
 16/10/2011 11:00 MCC Race 12 (Manly)
-25/10/2011 19:30 TSCQ Meeting
+18/10/2011 19:30 TSCQ Meeting
 29/10/2011 10:00 Club Race (Manly - Tangalooma / Scarborough)
 30/10/2011 10:00 Club Race (Tangalooma / Scarborough - Manly)
 12/11/2011 10:00 Club Race (Manly - Sand Hills)
 13/11/2011 10:00 Club Race (Sand Hills - Manly)
+15/11/2011 19:30 TSCQ Meeting
 18/11/2011       MCC Presentation
 19/11/2011       MCC Fun Race
-23/11/2011 19:30 TSCQ Meeting
 26/11/2011 10:00 Club Race (Mission Point, Bribie Island) (BI) 
 10/12/2011 10:00 Club Race (Scarborough - Bribie) (BI)
 11/12/2011 10:00 Club Race (Bribie - Scarborough) (BI)
