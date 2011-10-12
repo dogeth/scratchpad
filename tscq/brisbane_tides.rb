@@ -12,8 +12,8 @@ def isNumeric(s)
 end
 
 @timezone_offset = 10
-searchdate = Date.new(2011,1,1)
-enddate = Date.new(2012,1,1)
+searchdate = Date.new(2012,1,1)
+enddate = Date.new(2013,1,1)
 
 RestClient.log = 'RC.log'
 
@@ -32,14 +32,16 @@ while searchdate < enddate
 
     istime = true
 
-    row.search("//th").each do |data|
+    row.search("//td").each do |data|
 
       if (istime)
         @tidetime = data.html.strip
         @tidedate = searchdate + colindex
-
+        
         colindex+=1
         colindex = 0 if colindex >= 7 #7 columns of data, cycling through each one
+        
+        puts @tidedate
       else
         if isNumeric(@tidetime) && @tidedate <= enddate
           eventdate = DateTime.civil(@tidedate.year, @tidedate.month, @tidedate.day, @tidetime[0,2].to_i, @tidetime[2,2].to_i, 0, Rational(@timezone_offset, 24))
@@ -56,11 +58,14 @@ while searchdate < enddate
           event.start       = eventdate
           event.end         = eventdate
           event.location    = "Brisbane Bar"
+          
         end
       end
       istime = !istime
     end
+
   end
+  
   searchdate+=7 #7 days of tide information comes back from bom
 end
 
