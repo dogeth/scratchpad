@@ -2,7 +2,7 @@
 
 require 'rubygems'
 require 'icalendar'
-require 'activesupport'
+require 'active_support/all'
 
 include Icalendar
 
