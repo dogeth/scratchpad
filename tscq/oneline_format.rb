@@ -1,6 +1,7 @@
 #Script to change the TSCQ calander into a one line format
 
 require 'rubygems'
+require 'bundler/setup'
 require 'icalendar'
 require 'active_support/all'
 

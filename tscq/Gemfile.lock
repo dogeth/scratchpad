@@ -1,0 +1,16 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    active_support (3.0.0)
+      activesupport (= 3.0.0)
+    activesupport (3.0.0)
+    i18n (0.6.0)
+    icalendar (1.1.6)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  active_support
+  i18n
+  icalendar
